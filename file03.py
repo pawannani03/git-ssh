@@ -6,7 +6,7 @@ print(f"Hello, {name}! Welcome to Python.")
 
 def check_even_odd(number):
     """ Function to check if a number is even or odd."""
-    if number % 2 == 0:
+    if number % 4 == 0:
         return "Even"
     else:
         return "Odd"
